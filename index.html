@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MiraKod</title>
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="landing.css" />
+  </head>
+
+  <body>
+    <div id="loader1" class="container">
+      <div class="row l1head">
+        <p class="errorhead">
+          <span style="font-size: 21px; color: black; font-weight: 600;"
+            >System error</span
+          >
+        </p>
+      </div>
+      <div class="row l1content">
+        <p id="typedText1" style="font-size: 25px;"></p>
+      </div>
+    </div>
+
+    <div id="loader2" class="container">
+      <div class="row l1head">
+        <p class="errorhead">
+          <span style="font-size: 21px; color: black; font-weight: 600;"
+            >System message</span
+          >
+        </p>
+      </div>
+      <div class="row l2content">
+        <p id="typedText" style="font-size: 25px;"></p>
+      </div>
+    </div>
+    <div id="main-content">
+      <nav
+        class="navbar navbar-dark fixed-top justify-content-between px-4 py-2"
+      >
+        <a class="navbar-brand"
+          ><img src="assets/Logo.png" class="logo" alt=""
+        /></a>
+        <a
+          class="navbar-toggler"
+          style="background: rgba(0, 0, 0, 0.8);"
+          data-toggle="collapse"
+          data-target="#navbarTogglerDemo03"
+          aria-controls="navbarTogglerDemo03"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <div id="nav-icon3">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </a>
+      </nav>
+      <div
+        class="collapse navbar-collapse fixed-top"
+        style="background: rgba(0, 0, 0, 0.9); z-index: 1;"
+        id="navbarTogglerDemo03"
+      >
+        <ul
+          class="navbar-nav mt-2 mt-lg-0 justify-content-center"
+          style="height: 100vh;"
+        >
+          <li class="nav-item mx-auto">
+            <a class="nav-link menu-link" href="./index.html">HOME</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link menu-link" href="#about">ABOUT</a>
+          </li>
+
+          <li class="nav-item mx-auto">
+            <a class="nav-link menu-link" href="#services">SERVICES</a>
+          </li>
+          <li class="nav-item mx-auto d-none">
+            <a class="nav-link menu-link" href="#">WORK</a>
+          </li>
+          <li class="nav-item mx-auto">
+            <a class="nav-link menu-link" href="#contact">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+      <div style="position: absolute; top: 90vh; right: 0px; z-index: 1;">
+        <img
+          height="20px"
+          width="20px"
+          class="mx-4"
+          src="assets/Symbol 44 – 1.svg"
+          alt=""
+        />
+        <img height="20px" src="assets/Symbol 45 – 1.svg" class="mr-4" alt="" />
+      </div>
+
+      <header>
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <div class="carousel-inner" role="listbox">
+            <!-- Slide One - Set the background image for this slide in the line below -->
+            <div
+              class="carousel-item active"
+              style="background-image: url('images/title-img1.jpg');"
+            ></div>
+            <!-- Slide Two - Set the background image for this slide in the line below -->
+            <div
+              class="carousel-item"
+              style="background-image: url('images/title-img3.jpg');"
+            ></div>
+            <!-- Slide Three - Set the background image for this slide in the line below -->
+            <div
+              class="carousel-item"
+              style="
+                background-image: url('https://source.unsplash.com/szFUQoyvrxM/1920x1080');
+              "
+            ></div>
+          </div>
+        </div>
+      </header>
+      <section id="about" class="mid-page color-black">
+        <div class="container">
+          <div style="padding-top: 60px;" id="scroll-to">
+            <div class="col-md-6">
+              <h1>DISRUPTIVE BRAND SOLUTIONS FOR THE CREATORS OF TOMORROW</h1>
+            </div>
+            <div class="col-md-6 offset-md-3 offset-sm-0">
+              <p class="lead" style="font-size: 24px;">
+                MiraKod is a multi-disciplinary creative agency that creates
+                culturally driven design, products and experiences for your
+                brand.
+              </p>
+            </div>
+            <div class="col-md-6 offset-md-5 offset-sm-0">
+              <h3>
+                <b
+                  >We share the same passion as you and a knack for creating
+                  iconic stories for your brand.</b
+                >
+              </h3>
+            </div>
+            <div class="col-md-6 offset-md-2 offset-sm-0">
+              <h1 class="py-4">COLLABORATION</h1>
+            </div>
+            <div class="col-md-6 offset-md-4 offset-sm-0">
+              <p class="lead pl-5" style="font-size: 24px;">
+                Our culture lies in collaboration and empathy, feelings and
+                stories, disruption and creativity, with one strategic focus,
+                Relationships.
+              </p>
+            </div>
+            <div class="col-md-6 offset-md-6 offset-sm-0">
+              <h3>
+                <b>
+                  Our mission is to create stories that connect brands and
+                  humans building relationships that last.</b
+                >
+              </h3>
+            </div>
+
+            <div class="col-sm-12 col-md-6 offset-md-3 offset-sm-0">
+              <div class="text-center py-5">
+                <h1 style="font-weight: bold;"><div id="#MiraKod"></div></h1>
+                <p class="lead" style="font-size: 24px;">
+                  We are artists, designers, technologists and creators who help
+                  brands to
+                  <span style="font-weight: bold;"> rise above the noise.</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="services" class="container">
+        <h1 class="text-center head">Our Services</h1>
+        <div class="row">
+          <div class="col-sm-6 col-md-4 text-center">
+            <img class="indeximg" src="images/graphic-design.jpg" alt="" />
+            <h3 class="text-center py-3">GRAPHIC DESIGN</h3>
+          </div>
+          <div class="col-sm-6 col-md-4 text-center">
+            <img class="indeximg" src="images/animation.jpg" alt="" />
+            <h3 class="text-center py-3">ANIMATION</h3>
+          </div>
+          <div class="col-sm-6 col-md-4 text-center">
+            <img class="indeximg" src="images/Social-media.jpg" alt="" />
+            <h3 class="text-center py-3">SOCIAL MEDIA MARKETING</h3>
+          </div>
+          <div class="col-sm-6 col-md-4 text-center">
+            <img class="indeximg" src="images/photography.jpg" alt="" />
+            <h3 class="text-center py-3">PHOTOGRAPHY</h3>
+          </div>
+          <div class="col-sm-6 col-md-4 text-center">
+            <img class="indeximg" src="images/web-dev.jpg" alt="" />
+            <h3 class="text-center py-3">WEB DESIGN</h3>
+          </div>
+          <div class="col-sm-6 col-md-4 text-center">
+            <img class="indeximg" src="images/blog.jpg" alt="" />
+            <h3 class="text-center py-3">BLOG</h3>
+          </div>
+        </div>
+
+        <div class="py-5 my-5" id="bgphoto">
+          <h1 class="text-center my-auto h1class">VIEW OUR SHOW REEL</h1>
+        </div>
+
+        <h1 class="text-center head my-5">@MiraKod</h1>
+        <div class="row no-gutters justify-content-sm-center">
+          <div class="col-md-4 pb-4">
+            <img
+              class="imgclass90"
+              src="assets/rawpixel-com-247361.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 pb-4">
+            <img
+              class="imgclass90"
+              src="assets/rawpixel-com-247361.png"
+              alt=""
+            />
+          </div>
+          <div class="col-md-4 pb-4">
+            <img
+              class="imgclass90"
+              src="assets/rawpixel-com-247361.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <hr style="border-bottom: 1px solid #a9895b; width: 100%;" />
+        <div id="contact" class="pt-3 pb-2">
+          <div class="row">
+            <div class="col-sm-4">
+              <ul class="nav flex-column">
+                <li class="nav-item">
+                  <a class="nav-link text-white nav-css" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white nav-css" href="#">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white nav-css" href="#">Work</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white nav-css" href="#">People</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white nav-css" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="nav flex-column">
+                <li class="nav-item nav-css">
+                  New Business Inquiries
+                </li>
+                <li class="nav-item nav-li">
+                  Anshika Agarwal
+                </li>
+                <li class="nav-item nav-li">
+                  Global Director
+                </li>
+                <li class="nav-item nav-li">
+                  <a class="text-white" href="#">anshika@MiraKod.Studio</a>
+                </li>
+                <li class="nav-item my-3">
+                  <a class="text-white nav-btn p-2" href="#form"
+                    >Start a Project</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <ul class="nav flex-column float-md-right">
+                <li class="nav-item nav-css">
+                  <img
+                    height="20px"
+                    width="25px"
+                    class="mx-3"
+                    src="assets/Symbol 44 – 1.svg"
+                    alt=""
+                  />
+                  Instagram
+                </li>
+                <li class="nav-item nav-css">
+                  <img
+                    height="20px"
+                    src="assets/Symbol 45 – 1.svg"
+                    class="mx-4"
+                    alt=""
+                  />
+                  Facebook
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <p class="text-center footer">
+          Copyright © 2020 MiraKod
+        </p>
+      </section>
+
+      <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://cdn.jsdelivr.net/npm/typeit@6/dist/typeit.min.js"></script>
+      <script src="app.js"></script>
+      <script>
+        $(document).ready(function () {
+          $("#nav-icon3").click(function () {
+            $(this).toggleClass("open");
+          });
+        });
+
+        $(window).scroll(function () {
+          var hT = $("#scroll-to").offset().top,
+            hH = $("#scroll-to").outerHeight(),
+            wH = $(window).height(),
+            wS = $(this).scrollTop();
+          if (window.innerWidth > 1300) {
+            if (wS + 200 > hT + hH - wH) {
+              $(".logo").attr("src", "./assets/Logo-no-bg.png");
+            }
+            if (wS + 200 < hT + hH - wH || wS > hT + hH) {
+              $(".logo").attr("src", "assets/Logo-no-bg.png");
+            }
+          }
+          if (window.innerWidth < 1300) {
+            console.log(window.innerWidth);
+            if (wS > hT + hH - 2 * wH) {
+              $(".logo").attr("src", "./assets/Logo.png");
+            }
+            if (wS + 405 < hT + hH - wH || wS > hT + hH) {
+              $(".logo").attr("src", "assets/Logo.png");
+            }
+          }
+        });
+      </script>
+    </div>
+  </body>
+</html>
+
+<!-- Page Content -->
